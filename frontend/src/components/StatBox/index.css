@@ -1,0 +1,17 @@
+.stat-box {
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 16px;
+  border-radius: 8px;
+  text-align: center;
+  width: 100px;
+}
+
+.value {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.label {
+  font-size: 14px;
+  opacity: 0.9;
+}

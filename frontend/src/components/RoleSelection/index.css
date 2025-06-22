@@ -1,0 +1,118 @@
+.role-selection-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 60px 20px;
+  background: #f0f8ff;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.role-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 32px 24px;
+  width: 320px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.role-card:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+
+.role-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.patient {
+  color: #2563eb; /* Blue */
+}
+
+.caretaker {
+  color: #16a34a; /* Green */
+}
+
+.role-description {
+  color: #475569;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.role-features {
+  text-align: left;
+  padding-left: 0;
+  margin-bottom: 24px;
+  list-style: none;
+}
+
+.role-features li::before {
+  content: "●";
+  color: inherit;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.patient-card .role-features li {
+  color: #2563eb;
+}
+
+.caretaker-card .role-features li {
+  color: #16a34a;
+}
+
+.role-button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+
+.patient-btn {
+  background-color: #2563eb;
+  color: white;
+}
+
+.caretaker-btn {
+  background-color: #16a34a;
+  color: white;
+}
+
+.paragraph {
+  display: inline;
+}
+.role-selection-page {
+  background: linear-gradient(to bottom, #f0f8ff, #ffffff);
+  min-height: 100vh;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.role-selection-heading {
+  font-size: 28px;
+  font-weight: 600;
+  color: #0f172a;
+  margin-bottom: 40px;
+}
+
+.role-selection-footer {
+  margin-top: 40px;
+  color: #64748b;
+  font-size: 14px;
+}

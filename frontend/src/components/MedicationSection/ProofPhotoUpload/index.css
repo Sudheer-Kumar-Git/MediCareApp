@@ -1,0 +1,26 @@
+.proof-upload {
+  border: 2px dashed #cbd5e1;
+  padding: 24px;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.upload-title {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.upload-desc {
+  font-size: 12px;
+  color: #64748b;
+  margin-bottom: 12px;
+}
+
+.photo-btn {
+  padding: 8px 16px;
+  border: none;
+  background-color: #e0f2fe;
+  cursor: pointer;
+  border-radius: 4px;
+}

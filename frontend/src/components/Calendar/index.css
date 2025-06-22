@@ -1,0 +1,29 @@
+.calendar-container {
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.calendar-title {
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.legend span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+.green-dot {
+  background-color: #22c55e;
+}
+.red-dot {
+  background-color: #ef4444;
+}
+.blue-dot {
+  background-color: #3b82f6;
+}

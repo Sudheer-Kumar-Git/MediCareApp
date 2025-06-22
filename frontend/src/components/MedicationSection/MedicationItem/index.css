@@ -1,0 +1,34 @@
+.medication-item {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.circle-number {
+  background-color: #e0f2fe;
+  padding: 8px 12px;
+  border-radius: 50%;
+  font-weight: bold;
+  margin-right: 12px;
+}
+
+.medication-info {
+  flex-grow: 1;
+}
+
+.med-title {
+  font-weight: 600;
+}
+
+.med-desc {
+  font-size: 12px;
+  color: #64748b;
+}
+
+.med-time {
+  font-size: 14px;
+  color: #0f172a;
+}

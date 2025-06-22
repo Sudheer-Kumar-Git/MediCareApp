@@ -1,0 +1,31 @@
+.dashboard-container {
+  font-family: sans-serif;
+  background-color: #f0f9ff;
+  min-height: 100vh;
+}
+
+.content-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.left-panel {
+  flex: 2;
+}
+
+.right-panel {
+  flex: 1;
+}
+
+.section-title {
+  margin-bottom: 16px;
+  font-size: 18px;
+  font-weight: 600;
+}
